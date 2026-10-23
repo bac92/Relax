@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080605">
+  <meta name="description" content="Informativa sul trattamento dei dati personali per l'app Relax – Terapia del Benessere.">
+  <title>Privacy Policy — Relax</title>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #080605;
+      --ember: #1d130a;
+      --panel: rgba(24, 17, 11, 0.92);
+      --gold: #c79c3a;
+      --gold-light: #e7c66d;
+      --ivory: #fff3d2;
+      --muted: #b8aa8a;
+      --line: rgba(199, 156, 58, 0.28);
+      --error: #ff8e80;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ivory);
+      background: var(--ink);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      min-height: 100%;
+      background: var(--ink);
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      background:
+        radial-gradient(ellipse at 50% 0%, var(--ember) 0%, #0d0907 42%, var(--ink) 78%);
+      color: var(--ivory);
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--gold-light);
+      text-decoration: underline;
+      text-decoration-color: rgba(231, 198, 109, 0.55);
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      color: #fff0bd;
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--gold-light);
+      outline-offset: 4px;
+      border-radius: 3px;
+    }
+
+    .page {
+      width: min(100% - 32px, 860px);
+      margin-inline: auto;
+      padding: 36px 0 56px;
+    }
+
+    .brand {
+      display: grid;
+      justify-items: center;
+      gap: 14px;
+      margin-bottom: 28px;
+      text-align: center;
+    }
+
+    .brand img {
+      display: block;
+      width: min(180px, 45vw);
+      height: auto;
+      filter: drop-shadow(0 0 20px rgba(214, 160, 60, 0.16));
+    }
+
+    .brand-name {
+      margin: 0;
+      color: var(--gold-light);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
+    .policy {
+      padding: clamp(22px, 5vw, 48px);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: var(--panel);
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.38);
+      backdrop-filter: blur(10px);
+    }
+
+    h1, h2 {
+      color: var(--gold-light);
+      line-height: 1.25;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 6vw, 3rem);
+      letter-spacing: -0.035em;
+    }
+
+    h2 {
+      margin: 34px 0 10px;
+      font-size: 1.2rem;
+    }
+
+    p, li {
+      color: var(--ivory);
+    }
+
+    .intro {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .updated {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .notice {
+      margin: 28px 0;
+      padding: 16px 18px;
+      border: 1px solid rgba(199, 156, 58, 0.42);
+      border-left: 4px solid var(--gold);
+      border-radius: 12px;
+      background: rgba(199, 156, 58, 0.08);
+      color: var(--ivory);
+    }
+
+    .notice strong {
+      color: var(--gold-light);
+    }
+
+    .placeholder {
+      color: var(--gold-light);
+      font-weight: 650;
+    }
+
+    ul {
+      padding-left: 1.3rem;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    .divider {
+      height: 1px;
+      margin: 30px 0;
+      border: 0;
+      background: var(--line);
+    }
+
+    .contact {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(8, 6, 5, 0.45);
+    }
+
+    footer {
+      padding-top: 24px;
+      color: var(--muted);
+      font-size: 0.88rem;
+      text-align: center;
+    }
+
+    @media (max-width: 520px) {
+      .page {
+        width: min(100% - 20px, 860px);
+        padding-top: 22px;
+      }
+
+      .policy {
+        border-radius: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <header class="brand">
+      <!-- Percorso relativo al file logo.png già presente nel progetto. -->
+      <img
+        src="./Resources/Images/logo.png"
+        alt="Terapia del Benessere — Corpo e Spirito"
+        width="180"
+        height="180">
+      <p class="brand-name">Relax · Terapia del Benessere</p>
+    </header>
+
+    <article class="policy">
+      <header>
+        <h1>Informativa Privacy</h1>
+        <p class="intro">
+          Qui spieghiamo quali dati personali vengono trattati quando utilizzi
+          l’app Relax, per quali finalità e quali diritti puoi esercitare.
+        </p>
+        <p class="updated">
+          Ultimo aggiornamento: 23 ottobre 2026
+        </p>
+      </header>
+
+      <aside class="notice">
+        <strong>Informativa da completare prima della pubblicazione.</strong>
+        Sostituisci tutti i campi evidenziati tra parentesi quadre con i dati
+        corretti del titolare e verifica le sezioni su servizi esterni,
+        conservazione e basi giuridiche.
+      </aside>
+
+      <section>
+        <h2>1. Titolare del trattamento</h2>
+        <p>
+          Il titolare del trattamento è
+          <span class="placeholder">[nome e cognome oppure ragione sociale]</span>,
+          con sede o domicilio in
+          <span class="placeholder">[indirizzo]</span>.
+        </p>
+        <p>
+          Per domande o richieste relative alla privacy puoi contattarci a:
+          <a href="mailto:[indirizzo-email-privacy]">[indirizzo-email-privacy]</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. Dati trattati</h2>
+        <p>In base alle funzioni che utilizzi, l’app può trattare:</p>
+        <ul>
+          <li>
+            <strong>Dati dell’account:</strong> indirizzo email e credenziali
+            utilizzati per registrazione, accesso e recupero della password.
+            La password è gestita dal servizio di autenticazione utilizzato
+            dall’app e non viene mostrata in chiaro nell’interfaccia.
+          </li>
+          <li>
+            <strong>Dati tecnici di autenticazione:</strong> identificativo
+            dell’utente e token di sessione, conservati sul dispositivo
+            nell’archivio sicuro del sistema operativo per mantenere la sessione
+            e consentire la verifica dell’account.
+          </li>
+          <li>
+            <strong>Dati di utilizzo:</strong>
+            <span class="placeholder">[descrivere i dati di gioco o altri dati
+            associati all’account effettivamente raccolti]</span>.
+          </li>
+          <li>
+            <strong>Dati tecnici del dispositivo o di connessione:</strong>
+            <span class="placeholder">[indicare eventuali log, indirizzi IP,
+            identificatori o diagnostica raccolti dall’app o dai fornitori]</span>.
+          </li>
+        </ul>
+        <p>
+          Non inserire in questa informativa categorie di dati che l’app non
+          raccoglie; allo stesso modo, aggiungi ogni dato effettivamente trattato
+          che non è elencato qui.
+        </p>
+      </section>
+
+      <section>
+        <h2>3. Finalità e basi giuridiche</h2>
+        <ul>
+          <li>
+            Creare e gestire il tuo account e consentire l’accesso all’app.
+            Base giuridica da confermare: esecuzione del servizio richiesto.
+          </li>
+          <li>
+            Inviare le email necessarie alla registrazione e al recupero
+            dell’account o della password. Base giuridica da confermare:
+            esecuzione del servizio richiesto.
+          </li>
+          <li>
+            Salvare la sessione di accesso sul dispositivo e riconoscere
+            l’account nelle successive aperture dell’app.
+          </li>
+          <li>
+            <span class="placeholder">[aggiungere altre finalità e la relativa
+            base giuridica, se applicabile]</span>.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. Servizi di terze parti</h2>
+        <p>
+          Per le funzioni di autenticazione l’app utilizza
+          <strong>Supabase</strong>. I dati necessari alla registrazione,
+          all’accesso e al recupero dell’account vengono trasmessi al servizio.
+          Prima della pubblicazione, verifica quali dati vengono trattati,
+          dove sono ospitati e per quanto tempo sono conservati in base alla
+          configurazione effettiva del progetto.
+        </p>
+        <ul>
+          <li>
+            Informativa Supabase:
+            <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">
+              supabase.com/privacy
+            </a>
+          </li>
+          <li>
+            <strong>Hosting di questa pagina:</strong>
+            <span class="placeholder">[indicare il servizio di hosting e
+            l’eventuale trattamento dei dati di connessione]</span>.
+          </li>
+          <li>
+            <strong>Altri fornitori:</strong>
+            <span class="placeholder">[elencare eventuali altri servizi
+            effettivamente usati, per esempio analytics o crash reporting]</span>.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Conservazione dei dati</h2>
+        <p>
+          I dati dell’account vengono conservati per il tempo necessario a
+          mantenere l’account e fornire il servizio, salvo ulteriori obblighi
+          di legge. I dati conservati dai fornitori esterni seguono anche le
+          rispettive configurazioni e condizioni.
+        </p>
+        <p>
+          Specificare i tempi o i criteri effettivi di conservazione:
+          <span class="placeholder">[tempi di conservazione per account,
+          dati di gioco, log e richieste di assistenza]</span>.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. Dove sono trattati i dati</h2>
+        <p>
+          I dati possono essere trattati sul dispositivo e dai fornitori che
+          erogano i servizi descritti sopra. Se i dati vengono trasferiti
+          fuori dallo Spazio economico europeo, indicare i Paesi interessati
+          e le garanzie applicate:
+          <span class="placeholder">[verificare la configurazione e completare
+          questa sezione]</span>.
+        </p>
+      </section>
+
+      <section>
+        <h2>7. Sicurezza</h2>
+        <p>
+          L’app utilizza l’archivio sicuro del dispositivo per conservare
+          token di sessione e identificativo dell’utente. Nessuna misura
+          tecnica può garantire una sicurezza assoluta; proteggi il dispositivo
+          e non condividere le credenziali del tuo account.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. I tuoi diritti</h2>
+        <p>
+          Nei casi previsti dalla normativa applicabile, puoi chiedere accesso
+          ai tuoi dati, rettifica, cancellazione, limitazione del trattamento
+          o opporti al trattamento. Puoi inoltre chiedere la portabilità dei
+          dati quando applicabile e revocare il consenso, se il trattamento
+          si basa sul consenso. La revoca non rende illecito il trattamento
+          svolto prima della revoca.
+        </p>
+        <p>
+          Per esercitare i tuoi diritti, contatta il titolare all’indirizzo
+          indicato sopra. Hai inoltre il diritto di proporre reclamo
+          all’autorità di controllo competente, in Italia il
+          <a href="https://www.garanteprivacy.it/" target="_blank" rel="noopener noreferrer">
+            Garante per la protezione dei dati personali
+          </a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Minori</h2>
+        <p>
+          <span class="placeholder">[indicare l’età minima prevista per
+          utilizzare il servizio e le eventuali misure adottate per gli utenti
+          minorenni; verificare la disciplina applicabile]</span>.
+        </p>
+      </section>
+
+      <section>
+        <h2>10. Modifiche a questa informativa</h2>
+        <p>
+          Potremmo aggiornare questa pagina in caso di modifiche all’app o
+          alle modalità di trattamento. In caso di cambiamenti rilevanti,
+          informeremo gli utenti tramite
+          <span class="placeholder">[indicare come vengono comunicate le
+          modifiche, se applicabile]</span>. La data di aggiornamento è
+          riportata all’inizio della pagina.
+        </p>
+      </section>
+
+      <hr class="divider">
+
+      <div class="contact">
+        <strong>Contatti privacy</strong><br>
+        <span class="placeholder">[Nome del titolare]</span><br>
+        <a href="mailto:[indirizzo-email-privacy]">[indirizzo-email-privacy]</a>
+      </div>
+    </article>
+
+    <footer>
+      Relax · Terapia del Benessere
+    </footer>
+  </main>
+</body>
+</html>
